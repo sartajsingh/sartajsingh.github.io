@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            My Blog
 locale:           en_US
 url:              
 
@@ -26,13 +26,13 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
+  name: Sartaj Singh
+  avatar: sartaj.jpg
   bio: "Describe your self."
-  email: 
+  email: srtaj.sngh@gmail.com
   disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  twitter: singh.sartaj11
+  facebook: Sartaj Singh
   google:
     plus: #username
     analytics: 
@@ -40,7 +40,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: sartajsingh
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   xing: #username
