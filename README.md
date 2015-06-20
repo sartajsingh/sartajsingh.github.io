@@ -1,1 +1,0 @@
-# sartajsingh.github.io
