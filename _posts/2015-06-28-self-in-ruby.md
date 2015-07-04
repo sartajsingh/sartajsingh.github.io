@@ -1,9 +1,8 @@
 ---
-layout: post
+layout: page
 title: "Self in Ruby"
 description: "Meaning and use of self in Ruby"
 tags: ['Ruby']
-author: Sartaj Singh
 ---
 
 `Self` in Ruby has the same meaning as in our daily dictionary - the object of introspection i.e. Oneself. A more technical definition would be -
