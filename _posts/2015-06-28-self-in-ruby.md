@@ -39,7 +39,7 @@ end
 ~~~ ruby
 obj = Ruby.new
 puts obj
-puts obj.text
+puts obj.check
 ~~~
 
 Both the commands will return 
