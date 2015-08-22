@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Convention Over Configuration"
+title: "Why Convention Over Configuration?"
 description: "Why do software developers need to follow conventions of a framework"
 tags: ['Ruby']
 ---
@@ -34,16 +34,17 @@ The `Rails` app generates different environment files for you as well i.e. devel
 This makes it easier to keep your changes in a particular environment as they will only be loaded from the corresponding configuration file when running in that environment.
 For example we dont need to do precompilation of assets when in development mode but we do need that in production mode as it really speeds up the application behaviour and response time.
 
-There is also a database config file that has separate entries for each environment which so the you dont have to worry about changing data names once an app is deployed to production.
+There is also a database config file that has separate entries for each environment so that you dont have to worry about changing data names once an app is deployed to production.
 
-In `Rails` if you have a model named `User` , the corresponding database table will be called users and the handling controller is called `users_controller`.
+In `Rails` if you have a model named `User` , the corresponding database table will be called users and the handling controller is called `users_controller`. The table will automatically have columns of `created_at` and `updated_at` and not needing manual implementation.
 As they say , sometimes having too many options is a bad thing and it confuses you till you are on the verge of indecision. You can always have a name that you want and override the conventional names but that should be
 avoided unless absolutey necessary.
 
+
 Another convention in `Rails` allows you to get the desired output from your views in HTML  or in `JSON` by just appending .json at the end of your url.
 
-So, `what convention over configuration` really suggests is that there is a hard way to do a thing and then there is a smart way to do the same thing without necessarily losing flexibility, and that smart way has its pros of being speedy, less confusing, simple to understand and adaptable to different minds.
-i.e. if you are an inspiring developer and have a thing for simple and speedy development, then `Convention over Configuration` is the way to go.
+What `convention over configuration` really suggests is that there is a hard way to do a thing and then there is a smart way to do the same thing without necessarily losing flexibility, and that smart way has its pros of being speedy, less confusing, simple to understand and adaptable to different minds.
+So, if you are an inspiring developer and have a thing for simple and speedy development, then `Convention over Configuration` is the way to go.
 
 
 
