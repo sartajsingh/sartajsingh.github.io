@@ -14,7 +14,7 @@ Thes second approach is that where you follow a proper recipe advisor and have t
 
 ### Lets talk about the convention principle in Ruby on Rails Framework
 When I started working with `Ruby on Rails`, I could see a lot of controllers and views and models for the database. Then i came to know that the team behind `Rails` has set up rules to ease up working with the application which helps to reduce the need of heavy configuration.
-And moreover you can always override any rule according to your need but sticking with the conventional rules really speeds up the procces of development and helps to keep the code concise and understandable. It helps you to navigate easily through your application without confusion.
+And moreover you can always override any rule according to your need but sticking with the conventional rules really speeds up the process of development and helps to keep the code concise and understandable. It helps you to navigate easily through your application without confusion.
 
 
 From the very start, when you create a new `Rails` app by using the command below, `Rails` creates a number of files for you.
@@ -25,19 +25,16 @@ rails new app-name
 
 You automatically get the folders to hold your controllers, views and models.
 Folders to include your testing files and assets such as Javascript and CSS stylesheets.
-This speeds up the process of your app development as you prcisely where will your corrsponding code go in the application and if a new developer
-has to continue with your project he will understand the code and its utility very easily without confusion i.e. if you have written readable code atleast, and not a new language of your own.
+This speeds up the process of your app development as you precisely know where your code will go in the application and if a new developer
+has to continue with your project he will understand the code and its utility very easily without confusion, if only you have written atleast readable code, and not a new language of your own.
 
 
-The rails new command also generates three separately configured environments: development, test, and production.
-More specifically, when a Rails application is started it will look to see what environment it is running in and load the corresponding configuration file.
-This simplifies things greatly because when in development I can declare Ruby programs shouldn’t be cached because I will be changing them frequently, but in production I do want caching to save on load times.  Another feature is whether errors should be displayed to the browser. 
-Obviously I never want users to see an error stack trace so this is turned off in the production config but turned on in development so I can more easily debug.
-Lastly there is a database config file that has separate entries for each environment which is handy so you never have to worry about changing data library names once an app is deployed to production.
 
 The `Rails` app generates different environment files for you as well i.e. development, test and production.
-This makes it easier to keep your changes in a particular environment as they will only be loaded from the corrsponding configuration file when running in that environment.
+This makes it easier to keep your changes in a particular environment as they will only be loaded from the corresponding configuration file when running in that environment.
 For example we dont need to do precompilation of assets when in development mode but we do need that in production mode as it really speeds up the application behaviour and response time.
+
+There is also a database config file that has separate entries for each environment which so the you dont have to worry about changing data names once an app is deployed to production.
 
 In `Rails` if you have a model named `User` , the corresponding database table will be called users and the handling controller is called `users_controller`.
 As they say , sometimes having too many options is a bad thing and it confuses you till you are on the verge of indecision. You can always have a name that you want and override the conventional names but that should be
