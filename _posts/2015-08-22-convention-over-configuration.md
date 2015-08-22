@@ -7,7 +7,7 @@ tags: ['Ruby']
 `Convention over Configuration` is a pattern/paradigm in the software development world which aims at gaining simplicity in the development approach and as a result of these conventions the developer has to make lesser number of decisions as the framework makes most of them.
 It relies on the development of an application by using the framework's inbuilt procedures.
 
-Now lets say that you wake up one day and wish to make a new kind of meal to impress your friend. You have two approaches to do it.
+Lets say that you are hosting dinner for one your friends and wish to make a new kind of meal to impress your friend. You have two approaches to do it.
 The first approach is the hard approach where you build everything from scratch and discover your own order of mixing ingredients. This approach will allow you to experiment with your recipe but there is a risk that you might be covered by more of your ingredients than you put in your meal and end up getting late.
 Thes second approach is that where you follow a proper recipe advisor and have the basic ingredients already built for you and an order of mixing ingredients already decided. And you can still experiment with the recipe wherever you feel the urge to. This approach promises you simpler and faster meal preparation and hence an impressed friend.
 
