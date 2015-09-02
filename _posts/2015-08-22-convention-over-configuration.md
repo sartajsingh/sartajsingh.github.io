@@ -2,8 +2,9 @@
 layout: page
 title: "Why Convention Over Configuration?"
 description: "Why do software developers need to follow conventions of a framework"
-tags: ['Ruby']
+tags: ['Ruby', 'Rails', 'Convention']
 ---
+
 `Convention over Configuration` is a pattern/paradigm in the software development world which aims at gaining simplicity in the development approach and as a result of these conventions the developer has to make lesser number of decisions as the framework makes most of them.
 It relies on the development of an application by using the framework's inbuilt procedures.
 
